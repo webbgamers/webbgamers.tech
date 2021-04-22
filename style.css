@@ -1,14 +1,18 @@
 body {
     background-color: #222222;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
 }
 
 h1 {
     color: limegreen;
+    margin: 30px;
+    font-size: 48px;
 }
 
 p {
     color: lightgrey;
+    margin: 12px 8px;
 }
 
 a:link {
@@ -16,5 +20,29 @@ a:link {
 }
 
 a:visited {
-    color: whitesmoke;
+    color: #dddddd;
+}
+
+.nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666666;
+}
+
+.nav-item {
+    float: left;
+}
+
+.nav-link {
+    display: block;
+    padding: 14px 24px;
+    text-align: center;
+    text-decoration: none;
+    color: #dddddd;
+}
+
+.nav-link:hover {
+    background-color: #bbbbbb;
 }
