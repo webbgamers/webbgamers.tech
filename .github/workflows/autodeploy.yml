@@ -1,0 +1,22 @@
+name: autodeploy
+
+on:
+  # Triggers on push to main
+  push:
+    branches: [ main ]
+
+  # Manual trigger if needed
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: SSH Remote Commands
+      uses: appleboy/ssh-action@v0.1.4
+      with:
+        host: webbgamers.tech
+        USERNAME: autodeploy
+        PORT: 69
+        KEY: ${{ secrets.SSH_KEY }}
+        script: cd /home/pi/webbgamers.tech; git pull
