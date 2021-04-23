@@ -12,9 +12,14 @@ h1 {
     font-size: 48px;
 }
 
+h3 {
+    color: limegreen;
+    margin: 10px 14px;
+}
+
 p {
     color: lightgrey;
-    margin: 12px 8px;
+    margin: 12px 16px;
 }
 
 a:link {
@@ -47,4 +52,21 @@ a:visited {
 
 .nav-link:hover {
     background-color: #bbbbbb;
+}
+
+.project-container {
+    display: flex;
+    margin: 12px;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #111111;
+    border-radius: 16px;
+    margin: 6px;
+    width: clamp(200px, 250px, 300px);
+}
+
+.project-link {
+    text-decoration: none;
 }
