@@ -76,7 +76,6 @@ p a:visited {
     margin: 12px;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: flex-start;
     align-content: flex-start;
 }
 
