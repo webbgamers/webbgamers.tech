@@ -1,9 +1,15 @@
 /* webbgamers 2021 */
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: #222222;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
@@ -20,6 +26,17 @@ h3 {
 p {
     color: lightgrey;
     margin: 12px 16px;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 5px;
+    margin: 0px;
+    flex-shrink: 0;
+}
+
+.content {
+    flex: 1 0 auto;
 }
 
 p a:link {
@@ -59,6 +76,8 @@ p a:visited {
     margin: 12px;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
 }
 
 .project {
