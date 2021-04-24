@@ -13,8 +13,8 @@ h1 {
 }
 
 h3 {
-    color: limegreen;
-    margin: 10px 14px;
+    margin: 8px;
+    text-align: center;
 }
 
 p {
@@ -22,11 +22,11 @@ p {
     margin: 12px 16px;
 }
 
-a:link {
+p a:link {
     color: white;
 }
 
-a:visited {
+p a:visited {
     color: #dddddd;
 }
 
@@ -58,15 +58,21 @@ a:visited {
     display: flex;
     margin: 12px;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .project {
     background-color: #111111;
     border-radius: 16px;
     margin: 6px;
+    padding: 10px 4px;
     width: clamp(200px, 250px, 300px);
 }
 
 .project-link {
     text-decoration: none;
+    color: limegreen;
+}
+.project-link:hover {
+    color: lightgreen;
 }
