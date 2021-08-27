@@ -18,6 +18,13 @@ h1 {
     font-size: 48px;
 }
 
+h2 {
+    color: lightgrey;
+    text-align: center;
+    margin: 20px;
+    font-size: 30px;
+}
+
 h3 {
     margin: 8px;
     text-align: center;
