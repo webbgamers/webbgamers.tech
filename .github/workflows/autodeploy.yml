@@ -17,6 +17,6 @@ jobs:
       with:
         host: webbgamers.tech
         USERNAME: autodeploy
-        PORT: 69
+        PORT: 2200
         KEY: ${{ secrets.SSH_KEY }}
         script: cd /home/pi/webbgamers.tech; git pull
