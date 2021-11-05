@@ -4,72 +4,78 @@
 <html lang="en">
 
 <head>
-    <title>webbgamers.tech</title>
     <meta charset="UTF-8" />
+    <meta name="description" content="Home page for my various projects. I code random things from small games to Discord bots.">
+    <meta name="keywords" content="programming, webbgamers, python, game jam, projects, discord bots, c#, coding">
+    <meta name="robots" content="index,follow">
+    <title>webbgamers.tech</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <header>
-        <h1 class="title">webbgamers<span style="font-size: 50%; color: #666666">.tech</span></h1>
-        <ul class="nav-bar">
-            <li class="nav-item"><a class="nav-link" href="index.html">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="https://vault.webbgamers.tech">Vault</a></li>
-            <li class="nav-item" style="float: right;"><a class="nav-link" href="index.html">Social</a></li>
-        </ul>
+        <h1>webbgamers<span style="font-size: 50%; color: #666666">.tech</span></h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Projects</a></li>
+            <li><a href="index.html">About</a></li>
+            <li><a href="https://vault.webbgamers.tech">Vault</a></li>
+            <li style="float: right;"><a href="index.html">Social</a></li>
+        </ul>
+    </nav>
 
     <p>Website is WIP, come back soon for a more complete and improved website!</p>
 
-    <h2>Projects</h2>
-
-    <div class="project-container content">
-        <div class="project">
-            <h3><a class="project-link" href="https://github.com/webbgamers/GuildMaster">GuildMaster</a></h3>
-            <p>A multipurpose Discord bot written in Python with <a href="https://github.com/Rapptz/discord.py">discord.py</a> designed with customization in mind.</p>
+    <section>
+        <h2>Projects</h2>
+        <div id="projects">
+            <div>
+                <h3><a href="https://github.com/webbgamers/GuildMaster">GuildMaster</a></h3>
+                <p>A multipurpose Discord bot written in Python with <a href="https://github.com/Rapptz/discord.py">discord.py</a> designed with customization in mind.</p>
+            </div>
+            <div>
+                <h3><a href="https://github.com/webbgamers/webbgamers.tech">webbgamers.tech</a></h3>
+                <p>A hub for my projects and lets me share what I am doing. This is my first real exploration into web development.</p>
+            </div>
+            <div>
+                <h3><a href="https://github.com/webbgamers/admin-shuffle">Admin Shuffle</a></h3>
+                <p>A Discord bot to run a social experiment where random members are given admin. <a href="https://discord.com/invite/mYgh94r3pm">Join the server!</a></p>
+            </div>
+            <div>
+                <h3><a href="https://github.com/webbgamers/IIoWParser">IIoW Parser</a></h3>
+                <p>A C# library and eventually website for modifying save files for <a href="https://store.steampowered.com/app/1162470/IIslands_of_War/">IIslands of WAR</a>.</p>
+            </div>
+            <div>
+                <h3><a href="https://www.shadertoy.com/view/fdlGWB">Mandelbrot Shader</a></h3>
+                <p>This is my first exploration into fractals. It is a shader is written in GLSL that visualizes the Mandelbrot set in several different ways.</p>
+            </div>
+            <div>
+                <h3><a href="https://www.shadertoy.com/view/7sB3Rz">Julia Sets with Color</a></h3>
+                <p>After making the Mandelbrot shader, I modified someone elses implementation of the Julia set to add color similar to my shader.</p>
+            </div>
+            <div>
+                <h3><a href="https://github.com/webbgamers/GreenThumb">Green Thumb</a></h3>
+                <p>This is the game I made for the <a href="https://ldjam.com/events/ludum-dare/46">Ludum Dare 46</a> game jam. I used Unity and Blender to make it in 72 hours which was quite a challenge being my first game.</p>
+            </div>
+            <div>
+                <h3><a href="https://github.com/webbgamers/WeekendJam2">Weekend Jam 2</a></h3>
+                <p>My submission for the <a href="https://itch.io/jam/weekend-jam-2">Weekend Jam 2</a>, and my second game. It's a 2D shooter that I wrote the code for, and my friend created the music.</p>
+            </div>
+            <div>
+                <h3><a href="https://github.com/webbgamers/WeekendJam3">Weekend Jam 3</a></h3>
+                <p>A tower defense game for the <a href="https://itch.io/jam/weekend-jam-3">Weekend Jam 3</a>. Again I wrote the code and my friend did the music.</p>
+            </div>
+            <div>
+                <h3><a href="https://github.com/webbgamers/WeekendJam3">ImagetoText</a></h3>
+                <p>A project to try and learn C#, intended to convert an image into ASCII art but I currently haven't gotten around to finishing it.</p>
+            </div>
+            <div>
+                <h3><a href="https://github.com/webbgamers/webbot">webbot</a></h3>
+                <p>My first discord bot, been abandoned in favor of GuildMaster but I might recycle the name in the future.</p>
+            </div>
         </div>
-        <div class="project">
-            <h3><a class="project-link" href="https://github.com/webbgamers/webbgamers.tech">webbgamers.tech</a></h3>
-            <p>A hub for my projects and lets me share what I am doing. This is my first real exploration into web development.</p>
-        </div>
-        <div class="project">
-            <h3><a class="project-link" href="https://github.com/webbgamers/admin-shuffle">Admin Shuffle</a></h3>
-            <p>A Discord bot to run a social experiment where random members are given admin. <a href="https://discord.com/invite/mYgh94r3pm">Join the server!</a></p>
-        </div>
-        <div class="project">
-            <h3><a class="project-link" href="https://github.com/webbgamers/IIoWParser">IIoW Parser</a></h3>
-            <p>A C# library and eventually website for modifying save files for <a href="https://store.steampowered.com/app/1162470/IIslands_of_War/">IIslands of WAR</a>.</p>
-        </div>
-        <div class="project">
-            <h3><a class="project-link" href="https://www.shadertoy.com/view/fdlGWB">Mandelbrot Shader</a></h3>
-            <p>This is my first exploration into fractals. It is a shader is written in GLSL that visualizes the Mandelbrot set in several different ways.</p>
-        </div>
-        <div class="project">
-            <h3><a class="project-link" href="https://www.shadertoy.com/view/7sB3Rz">Julia Sets with Color</a></h3>
-            <p>After making the Mandelbrot shader, I modified someone elses implementation of the Julia set to add color similar to my shader.</p>
-        </div>
-        <div class="project">
-            <h3><a class="project-link" href="https://github.com/webbgamers/GreenThumb">Green Thumb</a></h3>
-            <p>This is the game I made for the <a href="https://ldjam.com/events/ludum-dare/46">Ludum Dare 46</a> game jam. I used Unity and Blender to make it in 72 hours which was quite a challenge being my first game.</p>
-        </div>
-        <div class="project">
-            <h3><a class="project-link" href="https://github.com/webbgamers/WeekendJam2">Weekend Jam 2</a></h3>
-            <p>My submission for the <a href="https://itch.io/jam/weekend-jam-2">Weekend Jam 2</a>, and my second game. It's a 2D shooter that I wrote the code for, and my friend created the music.</p>
-        </div>
-        <div class="project">
-            <h3><a class="project-link" href="https://github.com/webbgamers/WeekendJam3">Weekend Jam 3</a></h3>
-            <p>A tower defense game for the <a href="https://itch.io/jam/weekend-jam-3">Weekend Jam 3</a>. Again I wrote the code and my friend did the music.</p>
-        </div>
-        <div class="project">
-            <h3><a class="project-link" href="https://github.com/webbgamers/WeekendJam3">ImagetoText</a></h3>
-            <p>A project to try and learn C#, intended to convert an image into ASCII art but I currently haven't gotten around to finishing it.</p>
-        </div>
-        <div class="project">
-            <h3><a class="project-link" href="https://github.com/webbgamers/webbot">webbot</a></h3>
-            <p>My first discord bot, been abandoned in favor of GuildMaster but I might recycle the name in the future.</p>
-        </div>
-    </div>
+    </section>
 
     <footer>
         <p><small>

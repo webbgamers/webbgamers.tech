@@ -1,4 +1,5 @@
 /* webbgamers 2021 */
+@charset "utf-8";
 
 html, body {
     height: 100%;
@@ -42,10 +43,6 @@ footer {
     flex-shrink: 0;
 }
 
-.content {
-    flex: 1 0 auto;
-}
-
 p a:link {
     color: white;
 }
@@ -54,7 +51,7 @@ p a:visited {
     color: #dddddd;
 }
 
-.nav-bar {
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -62,11 +59,11 @@ p a:visited {
     background-color: #666666;
 }
 
-.nav-item {
+nav ul li {
     float: left;
 }
 
-.nav-link {
+nav ul li a {
     display: block;
     padding: 14px 24px;
     text-align: center;
@@ -74,19 +71,20 @@ p a:visited {
     color: #dddddd;
 }
 
-.nav-link:hover {
+nav ul li a:hover {
     background-color: #bbbbbb;
 }
 
-.project-container {
+#projects {
     display: flex;
+    flex: 1 0 auto;
     margin: 12px;
     flex-wrap: wrap;
     justify-content: center;
     align-content: flex-start;
 }
 
-.project {
+#projects div {
     background-color: #111111;
     border-radius: 16px;
     margin: 6px;
@@ -94,10 +92,10 @@ p a:visited {
     width: max(300px, 450px);
 }
 
-.project-link {
+#projects div h3 a {
     text-decoration: none;
     color: limegreen;
 }
-.project-link:hover {
+#projects div h3 a:hover {
     color: lightgreen;
 }
