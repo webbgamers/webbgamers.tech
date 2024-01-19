@@ -1,0 +1,63 @@
+- name: Advent of Code 2023
+  link: https://github.com/webbgamers/aoc2022
+  desc: After not programming much for awhile, I took a stab at the [2023 Advent of Code](https://adventofcode.com/2023) challenge. Again I did it in Rust. Got further this time and even made some cool visualizations!
+
+- name: Volunté
+  link: https://devpost.com/software/volunte
+  desc: Hackathon project for [KnightHacks 2023](https://2023.knighthacks.org/). Volunte is a web app for managing volunteer-run events inspired by the FIRST volunteer dashboard. Like SignUpGenius but on steroids.
+
+- name: Nearus
+  link: https://devpost.com/software/nearus-connect-beyond-the-classroom
+  desc: Award winning project for [ShellHacks](https://www.shellhacks.net/) 2023. Nearus is a web app for locating nearby student related opportunities such as discounts and events. Think Eventbrite meets Groupon but tailored to students.
+
+- name: Slaash
+  link: https://github.com/webbgamers/slaash
+  desc: After starting and abandoning several Discord bots, I had the bright idea to start another. This time the focus is slash-command based minigames and it's written in Rust.
+
+- name: Advent of Code 2022
+  link: https://github.com/webbgamers/aoc2022
+  desc: My attempt at the [2022 Advent of Code](https://adventofcode.com/2022) programming challenge. Did it in Rust for no good reason and only got about 10 days in. Might come back to it sometime.
+
+- name: GuildMaster
+  link: https://github.com/webbgamers/GuildMaster
+  desc: A multipurpose Discord bot written in Python with [discord.py](https://github.com/Rapptz/discord.py) designed with customization in mind.
+
+- name: webbgamers.tech
+  link: https://github.com/webbgamers/webbgamers.tech
+  desc: A hub for my projects and lets me share what I am doing. This is my first real exploration into web development.
+
+- name: Admin Shuffle
+  link: https://github.com/webbgamers/admin-shuffle
+  desc: A Discord bot to run a social experiment where random members are given admin.
+
+- name: IIoW Parser
+  link: https://github.com/webbgamers/IIoWParser
+  desc: A C# library and eventually website for modifying save files for [IIslands of WAR](https://store.steampowered.com/app/1162470/IIslands_of_War/).
+
+- name: Julia Sets with Color
+  link: https://www.shadertoy.com/view/7sB3Rz
+  desc: After making the Mandelbrot shader, I modified someone elses implementation of the Julia set to add color similar to my shader.
+
+- name: Mandelbrot Shader
+  link: https://www.shadertoy.com/view/fdlGWB
+  desc: This is my first exploration into fractals. It is a shader is written in GLSL that visualizes the Mandelbrot set in several different ways.
+
+- name: Weekend Jam 3
+  link: https://github.com/webbgamers/WeekendJam3
+  desc: A tower defense game for the [Weekend Jam 3](https://itch.io/jam/weekend-jam-3). Again I wrote the code and my friend did the music.
+
+- name: Weekend Jam 2
+  link: https://github.com/webbgamers/WeekendJam2
+  desc: My submission for the [Weekend Jam 2](https://itch.io/jam/weekend-jam-2), and my second game. It's a 2D shooter that I wrote the code for, and my friend created the music.
+
+- name: Green Thumb
+  link: https://github.com/webbgamers/GreenThumb
+  desc: This is the game I made for the [Ludum Dare 46](https://ldjam.com/events/ludum-dare/46) game jam. I used Unity and Blender to make it in 72 hours which was quite a challenge being my first game.
+
+- name: ImagetoText
+  link: https://github.com/webbgamers/ImagetoText
+  desc: A project to try and learn C#, intended to convert an image into ASCII art but I currently haven't gotten around to finishing it.
+
+- name: webbot
+  link: https://github.com/webbgamers/webbot
+  desc: My first discord bot, been abandoned in favor of GuildMaster but I might recycle the name in the future.

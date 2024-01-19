@@ -1,4 +1,3 @@
-/* webbgamers 2021 */
 @charset "utf-8";
 
 html, body {
@@ -11,6 +10,7 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
 }
 
 h1 {
